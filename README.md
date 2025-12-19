@@ -9,20 +9,15 @@
 
 ---
 
-## ✨ Features
+##  Features
 - 이미지(모발/두피) 입력 → 텍스트 기반 **진단/추천 생성**
 - **QLoRA** 기반 효율적 튜닝(저자원 환경 고려)
 - (선택) **API 서버** 형태로 추론 제공 가능
 
 ---
 
-## 🧠 Model
-- Base: `HuggingFaceTB/SmolVLM-256M-Instruct` (또는 본인이 사용한 base로 수정)
+##  Model
+- Base: `HuggingFaceTB/SmolVLM-256M-Instruct`
 - Fine-tuned Weights: `cho-sr/crying_cv` (Hugging Face)
 - Training: QLoRA (PEFT/LoRA)
 
-> 모델/튜닝 세부 하이퍼파라미터는 본 README의 **Training** 섹션을 참고하세요.
-
----
-
-## 📦 Repository Structure (예시)
